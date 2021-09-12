@@ -1,0 +1,246 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+@media (max-width: 768px) {
+  .header {
+    width: auto;
+    height: auto; }
+    .header .header__menu {
+      display: none; }
+    .header .header__encabezado__datos__redes {
+      display: none; }
+    .header .header__encabezado__datos__redes__facebook {
+      display: none; }
+    .header .header__encabezado__datos__redes__linkedin {
+      display: none; }
+    .header .header__encabezado__datos__redes__whatsapp {
+      display: none; }
+    .header__encabezado {
+      background: #004b86;
+      color: white; }
+      .header__encabezado__menu {
+        display: none; } }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .header__collapse {
+    background: #004b86; }
+    .header__collapse__navbar {
+      background: #004b86; }
+  .header__menu {
+    display: none; }
+  .header__encabezado {
+    background: #004b86;
+    color: white; } }
+
+@media (min-width: 1200px) {
+  .header__collapse {
+    display: none; }
+    .header__collapse__navbar {
+      display: none; }
+  .header__encabezado {
+    background: #004b86;
+    color: white !important; }
+    .header__encabezado__logo {
+      background: #004b86; }
+    .header__encabezado__datos´ {
+      background: #004b86; }
+      .header__encabezado__datos´__telefono {
+        background: #004b86; }
+      .header__encabezado__datos´__redes {
+        background: #004b86; }
+    .header__encabezado__menu__paginas__link a {
+      color: white !important; } }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .header__encabezado {
+    background: #004b86;
+    color: white; }
+    .header__encabezado__menu__paginas__link a {
+      color: white !important; } }
+
+@media (min-width: 1200px) {
+  .header__encabezado {
+    background: #004b86;
+    color: white !important; }
+    .header__encabezado__logo {
+      background: #004b86; }
+    .header__encabezado__datos´ {
+      background: #004b86; }
+      .header__encabezado__datos´__telefono {
+        background: #004b86; }
+      .header__encabezado__datos´__redes {
+        background: #004b86; }
+    .header__encabezado__menu__paginas__link a {
+      color: white !important; }
+  .main__menu__link :hover {
+    filter: grayscale(1); } }
+
+/*celulares*/
+/*Tablets*/
+@media (min-width: 768px) and (max-width: 1200px) {
+  .main__articulo1__texto {
+    background: red; } }
+
+/*Desktop*/
+/*celulares*/
+/*Tablets*/
+/*Desktop*/
+/*celulares*/
+/*Tablets*/
+/*Desktop*/
+/*celulares*/
+/*Tablets*/
+/*Desktop*/
+/*celulares*/
+/*Tablets*/
+/*Desktop*/
+/*celulares*/
+/*Tablets*/
+/*Desktop*/
+/*celulares*/
+/*Tablets*/
+/*Desktop*/
+/*celulares*/
+/*Tablets*/
+/*Desktop*/
+/*celulares*/
+/*Tablets*/
+/*Desktop*/
+/*celulares*/
+/*Tablets*/
+/*Desktop*/
+/*celulares*/
+/*Tablets*/
+@media (min-width: 768px) and (max-width: 1200px) {
+  .main__servicio__imagen:hover {
+    filter: grayscale(1); } }
+
+/*Desktop*/
+@media (min-width: 1200px) {
+  img.main__servicio__imagen:hover {
+    filter: grayscale(100%); } }
+
+/*celulares*/
+/*Tablets*/
+/*Desktop*/
+/*celulares*/
+/*Tablets*/
+@media (min-width: 768px) and (max-width: 1200px) {
+  .footer__datos__copy {
+    color: white; }
+  .footer__data__blog {
+    display: none; }
+  .footer__data__horario {
+    display: none; }
+  .footer__data__horario__titulo {
+    display: none; }
+  .footer__data__horario__dia {
+    display: none; } }
+
+/*Desktop*/
+@media (min-width: 1200px) {
+  .footer__datos__copy {
+    color: white; }
+  .footer__data__consultoria__item {
+    text-decoration: none; } }
+
+/*celulares*/
+/*Tablets*/
+@media (min-width: 768px) and (max-width: 1200px) {
+  .main__somos {
+    background-image: url("../imagen/09.png");
+    background-size: cover; }
+  .main__saneamiento__servicio__imagen:hover {
+    filter: grayscale(100%); } }
+
+/*Desktop*/
+@media (min-width: 1200px) {
+  .main__somos {
+    background-image: url("../imagen/09.png");
+    background-size: cover; }
+  .main__saneamiento__servicio__imagen:hover {
+    filter: grayscale(100%); } }
+
+/*Tablets*/
+/*Desktop*/
+@media (min-width: 1200px) {
+  .main__tipo__cuadro__logo {
+    width: 120px;
+    height: auto; }
+  .main__tipo__cuadro__texto__A {
+    background-color: #029140; }
+  .main__tipo__cuadro__texto__A {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__B {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__C {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__D {
+    color: #0d0e08; }
+  .main__tipo__cuadro__texto__K {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__B {
+    background-color: #da251a; }
+  .main__tipo__cuadro__texto__A {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__B {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__C {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__D {
+    color: #0d0e08; }
+  .main__tipo__cuadro__texto__K {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__C {
+    background-color: #0093e0; }
+  .main__tipo__cuadro__texto__A {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__B {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__C {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__D {
+    color: #0d0e08; }
+  .main__tipo__cuadro__texto__K {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__D {
+    background-color: #ffd704; }
+  .main__tipo__cuadro__texto__A {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__B {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__C {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__D {
+    color: #0d0e08; }
+  .main__tipo__cuadro__texto__K {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__K {
+    background-color: #0d0e08; }
+  .main__tipo__cuadro__texto__A {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__B {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__C {
+    color: #f0f5f2; }
+  .main__tipo__cuadro__texto__D {
+    color: #0d0e08; }
+  .main__tipo__cuadro__texto__K {
+    color: #f0f5f2; } }
+
+@media (max-width: 768px) {
+  .main__saneamiento__servicio__imagen {
+    width: 100vw;
+    height: auto; } }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .main__saneamiento__servicio__imagen {
+    width: auto;
+    height: auto; } }
+
+@media (min-width: 1200px) {
+  .main__saneamiento__servicio__imagen {
+    width: "202px";
+    height: "auto"; } }
