@@ -147,6 +147,11 @@
     text-decoration: none; } }
 
 /*celulares*/
+@media (max-width: 768px) {
+  .main__somos {
+    background-image: url("../imagen/09.png");
+    background-size: cover; } }
+
 /*Tablets*/
 @media (min-width: 768px) and (max-width: 1200px) {
   .main__somos {
@@ -163,9 +168,22 @@
   .main__saneamiento__servicio__imagen:hover {
     filter: grayscale(100%); } }
 
+@media (max-width: 768px) {
+  .main__extintores {
+    background-image: url("../imagen/fuego.jpg");
+    background-size: cover; } }
+
 /*Tablets*/
+@media (min-width: 768px) and (max-width: 1200px) {
+  .main__extintores {
+    background-image: url("../imagen/fuego.jpg");
+    background-size: cover; } }
+
 /*Desktop*/
 @media (min-width: 1200px) {
+  .main__extintores {
+    background-image: url("../imagen/fuego.jpg");
+    background-size: cover; }
   .main__tipo__cuadro__logo {
     width: 120px;
     height: auto; }

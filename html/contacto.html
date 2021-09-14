@@ -20,7 +20,7 @@
 
 
 <!-- header -->
-<section class="header ms-5 me-5">
+<section class="header ms-5 me-5 sticky-top">
 
 
   <div class="header__encabezado row vw-xs-100">
@@ -82,73 +82,80 @@
   </section>
 
 <!-- main -->
-    <section class="main ms-5 me-5">
-      <h1 class="principal_titulo">Contáctenos</h1>
-      <form action="">
-        <fieldset>
-          <legend class="principal__parrafo negrita">Registro</legend>
-          <div class="principal__parrafo">
-            <label for="nombre">Nombre</label>
-            <br />
-            <input type="text" id="nombre" name="nombre" />
-          </div class="principal__parrafo">
-          <br />
-          <div class="principal__parrafo">
-            <label for="email">Correo electrónico</label>
-            <br />
-            <input type="email" id="email" name="email" />
-          </div>
-          <br />
-          <div class="principal__parrafo">
-            <label for="celular">Celular</label>
-            <br />
-            <input type="celular" id="celular" name="celular" />
-          </div>
-          <p class="principal__parrafo">Lugar de servicio:</p>
-          <div>
-            <input type="radio" id="capital" name="lugar" value="cap" />
-            <label class="principal__parrafo" for="capital">Capital</label>
-            <br />
-            <input type="radio" id="provincia" name="lugar" value="prov" />
-            <label class="principal__parrafo" for="provincia">Provincia</label>
-          </div>
-          <div>
-            <p class="principal__parrafo">Tipo de servicio</p>
-            <input 
-              type="checkbox"
-              name="Saneamiento"
-              id="saneamiento"
-              value="1"
-            />
-            <label class="principal__parrafo" for="saneamiento">Saneamiento Ambiental</label>
-            <input type="checkbox" name="Asesoria" id="Asesoria" value="1" />
-            <label class="principal__parrafo" for="Asesoria">Asesoría</label>
-            <input type="checkbox" name="Extintor" id="Extintor" value="1" />
-            <label class="principal__parrafo" for="Extintor">Extintor</label>
-            <input type="checkbox" name="producto" id="producto" value="1" />
-            <label class="principal__parrafo" for="producto">Productos</label>
-          </div>
-          <br />
-          <input type="submit" value="Send" />
-        </fieldset>
-      </form>
-   
+    <h1 class="header d-flex justify-content-center ms-5 me-5">Contáctenos</h1>
+   <br>
+      <Section class="qwe d-flex flex-row justify-content-center header ms-5 me-5 flex-wrap">
+<div class="main__datos me-xl-5 me-md-5">
+<h2>Escríbanos:</h2>
+        <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Nombre y apellidos</label>
+        <input type="text" class="form-control" id="Nombre" placeholder="">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">Correo electrónico</label>
+        <input type="text" class="form-control" id="Correo" placeholder="">
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label for="formGroupExampleInput" class="form-label">Celular</label>
+          <input type="text" class="form-control" placeholder="" >
+        </div>
+        <div class="col">
+          <label for="formGroupExampleInput" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" placeholder="" >
+        </div>
+      </div>
+<br>
+      
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="inputGroupSelect01">Tipo se servicio</label>
+        <select class="form-select" id="inputGroupSelect01">
+          <option selected>Opciones</option>
+          <option value="1">Saneamiento Ambiental</option>
+          <option value="2">Asesorías</option>
+          <option value="3">Extintores</option>
+          <option value="3">Productos</option>
+        </select>
+      </div> 
+           <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">comentarios</label>
+      </div>
+      <br>
+      <div class="button d-flex justify-content-center">
+        <button type="submit">Enviar Mensaje</button>
+      </div>
+</div>
+
+<div>
+
+
+<div class="ms-xl-5 ms-md-5">
+<h2>Visítanos</h2>
     <fieldset class="item_tabla">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15610.748803362685!2d-77.0646685!3d-11.9961326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x66dbfb4ce7e0fdf0!2sDesinfecci%C3%B3n%20Total!5e0!3m2!1ses-419!2spe!4v1625619278840!5m2!1ses-419!2spe"
-        width="600"
-        height="450"
+        width="320"
+        height="300"
         style="border: 0"
         allowfullscreen=""
         loading="lazy"
       ></iframe>
       <div>
         <p class="principal__parrafo">Dirección: Manuel A. Segura 222 Los Olivos Lima Perú</p>
-      <p class="principal__parrafo">Celular: +51 921 877 425</p>
-      <p class="principal__parrafo">email: desinfecciontotaloficial@gmail.com</p>
+      <p class="principal__parrafo">Teléfono: <a href="tel:+51921877425">921 877 425</a></p>
+      <p class="principal__parrafo">email: <a href="mailto:desinfecciontotaloficial@gmail.com">desinfecciontotaloficial@gmail.com</a></p>
       </div>
       
     </fieldset>
+  </div>
+  </div>
+      </Section>
+     
+
+  
+
  </section >
 
 <!-- footer -->
@@ -159,9 +166,9 @@
       <div class="footer__data__datos__titulo text-dark fw-bold">  DATOS:</div>  
       <div class="footer__data__datos__direccion">Manuel A. Segura 222 Los Olivos Lima</div>
       <br>
-      <div class="footer__data__datos__telefono"> Teléfono: 921877425</div>
+      <div class="footer__data__datos__telefono"> Teléfono: <a class="text-decoration-none text-white" href="tel:+51921877425">921 877 425</a></div>
       <br>
-      <div class="footer__data__datos__correo">desinfecciontotaloficial@gmail.com</div>
+      <div class="footer__data__datos__correo">email: <a class="text-decoration-none text-white" href="mailto:desinfecciontotaloficial@gmail.com">desinfecciontotaloficial@gmail.com</a></div>
       <br>
       <div class="footer__data__datos__redes d-flex flex-row gap-3"> 
           <div class="footer__data__datos__redes__facebook"> <a href="https://www.facebook.com/DESINFECCIONTOTALEIRL"><img src="/imagen/20673.png" alt=""></a></div>
