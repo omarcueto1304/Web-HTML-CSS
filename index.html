@@ -24,21 +24,24 @@
 <!-- header -->
 <section class="header ms-5 me-5 mt-3 sticky-top">
 
-
-<div class="header__encabezado row vw-xs-100">
-<div class="header__encabezado__logo  col-md-9 col-xl-10"><img src="/imagen/encabezado Dt.jpg" alt=""></div>
-<div class="header__encabezado__datos col-md-3 col-xl-2 d-flex flex-md-column flex-xl-column  justify-content-xl-center justify-content-md-center justify-content-between aling-contend-md-end justify-content-xl-center aling-contend-xl-end">
-  <div class="header__encabezado__datos__telefono  d-none d-md-block d-xl-block"><h5>Tel: <a class="text-decoration-none text-white" href="tel:+51921877425">921 877 425</a></h5></div>
-  <div class="header__encabezado__datos__redes d-flex flex-row gap-3"> 
-    <div class="header__encabezado__datos__redes__facebook"> <a href="https://www.facebook.com/DESINFECCIONTOTALEIRL"><img src="/imagen/20673.png" alt="Desinfeccion total"></a></div>
-    <div class="header__encabezado__datos__redes__linkedin"><a href="https://www.linkedin.com/company/desinfecci%C3%B3n-total"> <img src="/imagen/linkedin.png" alt="linkedin desinfeccion total"> </a></div>  
-    <div class="header__encabezado__datos__redes__whatsapp"> <a href="https://api.whatsapp.com/send?phone=51921877425&#038;text=Hola%20Desinfecci%C3%B3n%20Total,%20me%20gustar%C3%ADa%20mas%20informaci%C3%B3n%20sobre%20sus%20servicios"><img src="/imagen/whatsapp.png" alt="Whatsapp Desinfeccion total"></a> </div>
-  </div>
-
-   <div class="header__collapse">
+  <!-- Logo y redes -->
+  <div class="header__encabezado row vw-xs-100">
+    
+  <div class="header__encabezado__logo  d-flex  d-flex-column justify-content-between col-12 col-md-9 col-xl-10 img-fluid d-block d-xl-none"><img class="d-flex img-fluid" src="/imagen/encabezado Dt.jpg" alt=""></div>
+  <div class="header__encabezado__logo  d-flex  d-flex-column justify-content-between col-12 col-md-9 col-xl-10 img-fluid d-none d-xl-block"><img class="d-flex img-fluid" src="/imagen/encabezado Dt grande.jpeg" alt=""></div>
+    <div class="header__encabezado__datos col-md-3 col-xl-2 d-flex flex-md-column flex-xl-column  justify-content-xl-center justify-content-md-center justify-content-between aling-contend-md-end justify-content-xl-center aling-contend-xl-end">
+      <div class="header__encabezado__datos__telefono  d-none d-md-block d-xl-block"><h5>Tel: <a class="text-decoration-none text-white" href="tel:+51921877425">921 877 425</a></h5></div>
+      <div class="header__encabezado__datos__redes d-flex flex-row gap-3"> 
+        <div class="header__encabezado__datos__redes__facebook"> <a href="https://www.facebook.com/DESINFECCIONTOTALEIRL" target=»_blank><img src="/imagen/20673.png" alt="Desinfeccion total"></a></div>
+        <div class="header__encabezado__datos__redes__linkedin"><a href="https://www.linkedin.com/company/desinfecci%C3%B3n-total" target=»_blank> <img src="/imagen/linkedin.png" alt="linkedin desinfeccion total"> </a></div>  
+        <div class="header__encabezado__datos__redes__whatsapp"> <a href="https://api.whatsapp.com/send?phone=51921877425&#038;text=Hola%20Desinfecci%C3%B3n%20Total,%20me%20gustar%C3%ADa%20mas%20informaci%C3%B3n%20sobre%20sus%20servicios" target=»_blank><img src="/imagen/whatsapp.png" alt="Whatsapp Desinfeccion total"></a> </div>
+      </div>
+    </div>
+  <!-- menu sanguche -->
+   <section class="header__collapse">
       <div class="collapse" id="navbarToggleExternalContent">
     <div class=" p-4">
-      <nav class="header__menu__paginas_primero col-md-10 col-xl-10 d-flex flex-column justify-content-md-around justify-content-xl-around">
+      <nav class="header__menu__paginas_primero col-md-12 col-xl-12  d-flex flex-column justify-content-md-around justify-content-xl-around">
         <a class="header__menu__paginas__link text-decoration-none text-white" href="/index.html">INICIO</a>
         <a class="header__menu__paginas__link text-decoration-none text-white" href="/html/nosotros.html">NOSOTROS</a>
         <a class="header__menu__paginas__link text-decoration-none text-white" href="/html/servicios.html">SANEAMIENTO</a>
@@ -58,17 +61,12 @@
     </div>
   </nav>
   </div> 
-
-
-
-
 </div>
 
 
-</div>
-<div class="header__menu row gap-3 ">
-  <div class="header__menu__espacio col-md-1 col-xl-1"></div>
-  <nav class="header__menu__paginas col-md-10 col-xl-10 d-flex flex-row justify-content-md-around justify-content-xl-around bg-dark">
+<!-- Menu Encabezado horizontal -->
+<section class="header__menu row d-none d-xl-block ms-5 me-5 ">
+  <nav class="header__menu__paginas   d-flex flex-row  justify-content-around bg-dark">
     <a class="header__menu__paginas__link text-decoration-none text-white" href="/index.html">INICIO</a>
     <a class="header__menu__paginas__link text-decoration-none text-white" href="/html/nosotros.html">NOSOTROS</a>
     <a class="header__menu__paginas__link text-decoration-none text-white" href="/html/servicios.html">SANEAMIENTO</a>
@@ -78,18 +76,17 @@
     <a class="header__menu__paginas__link text-decoration-none text-white" href="/html/blog.html">BLOG</a>
     <a class="header__menu__paginas__link text-decoration-none text-white" href="/html/contacto.html">CONTACTO</a>
   </nav>
-  <div class="header__menu__espacio col-md-1 col-xl-1"></div>
-</div>
-
 </section>
 
+</section>
+</section>
 
 <!-- main -->
 <section class="main D-FLEX flex-column">
-<h1 class="main__title d-flex justify-content-center">DESINFECCION TOTAL</h1>
-<!-- carrusel -->
+<h1 class="main__title d-flex justify-content-center ">DESINFECCION TOTAL</h1>
 
-  <div class="main__carrusel ms-5 me-5">
+<!-- carrusel -->
+  <section class="main__carrusel ms-5 me-5">
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -128,164 +125,114 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-</div>
+</section>
 
 <!-- SANEAMIENTO AMBIENTAL -->
+<section class="main__saneamiento d-flex flex-column">
+<h2 class="main__saneamiento__titulo  mb-2 ms-5 me-5 pt-5 d-flex justify-content-center" >SANEAMIENTO AMBIENTAL</h2>
+  <div class="main__saneamiento__lista d-flex flex-column d-xl-none">
+    <a class="main__saneamiento__lista__item d-flex justify-content-center ms-5 me-5" href="/html/Desinfeccion.html"> <img  class='ms-5 me-5' src="/imagen/FUMIGACIÓN---DT.png" alt="Fumigacion" width="95%" heigth="auto"> </a>  
+    <h3 class='main__saneamiento__lista__subtitulo  ms-5 me-5 d-flex justify-content-center' >Fumigación</h3>
+    <a class="main__saneamiento__lista__item d-flex justify-content-center ms-5 me-5" href="/html/Desinsectacion.html"> <img  class='ms-5 me-5' src="/imagen//DESINSECTIZACIÒN.png" alt="Desinsectación" width="95%" heigth="auto"> </a>  
+    <h3 class='main__saneamiento__lista__subtitulo  ms-5 me-5 d-flex justify-content-center' >Desinsectación</h3>
+    <a class="main__saneamiento__lista__item d-flex justify-content-center ms-5 me-5" href="/html/Desratizacion.html"> <img  class='ms-5 me-5' src="/imagen/DESRATIZACION---DT.png" alt="Desratización" width="95%" heigth="auto"> </a>  
+    <h3 class='main__saneamiento__lista__subtitulo  ms-5 me-5 d-flex justify-content-center' >Desratización</h3>
+    <a class="main__saneamiento__lista__item d-flex justify-content-center ms-5 me-5" href="/html//LimpiezaAmbiente.html"> <img  class='ms-5 me-5' src="/imagen/722-x-368.png" alt="Lim´pieza de ambientes" width="95%" heigth="auto"> </a>  
+    <h3 class='main__saneamiento__lista__subtitulo  ms-5 me-5 d-flex justify-content-center' >Desratización</h3>
+    <a class="main__saneamiento__lista__item d-flex justify-content-center ms-5 me-5" href="/html/reservorio.html"> <img  class='ms-5 me-5' src="/imagen/RESERVORIO---DT.png" alt="Lim´pieza de reservorios" width="95%" heigth="auto"> </a>  
+    <h3 class='main__saneamiento__lista__subtitulo  ms-5 me-5 d-flex justify-content-center' >Limpieza de reservorios</h3>
+  </section>
 
-<h2 class="main__saneamiento__titulo mt-5 mb-5 ms-5 me-5 pt-5 d-flex justify-content-start" >SANEAMIENTO AMBIENTAL</h2>
-
-<div class="main__saneamiento d-flex flex-column  ms-5 me-5 flex-md-column flex-xl-row flex-md-column flex-xl-row justify-content-between mb-5 pb-5">
-    <div class="main__saneamiento__servicio d-flex flex-column justify-content-center">
-        <a class="main__saneamiento__servicio__imagen d-flex justify-content-center d-none d-md-block" href="/html/Desinfeccion.html"
-              ><img class="main__saneamiento__servicio__imagen" width="202px" height="auto"
-                src="/imagen/FUMIGACIÓN---DT.png"
-                alt="Desinfección"
-            /></a>
-            <a class="main__saneamiento__servicio__imagen d-flex justify-content-center d-block d-md-none" href="/html/Desinfeccion.html"
-              ><img class="main__saneamiento__servicio__imagen" 
-                src="/imagen/FUMIGACIÓN---DT 320.png"
-                alt="Desinfección"
-            /></a>
-            <h5 class="main__saneamiento__servicio__titulo d-flex justify-content-center">DESINFECCION</h5>
-      
-      </div>
-      
-     
-      <div class="main__saneamiento__servicio d-flex flex-column justify-content-between">
-      
-            <a class="main__saneamiento__servicio__imagen d-flex justify-content-center d-none d-md-block" href="/html/Desinsectacion.html"
-            ><img class="main__saneamiento__servicio__imagen" width="202px" height="auto" 
-              src="/imagen/DESINSECTIZACIÒN.png"
-              alt="Desinsectación"
-          /></a>
-          <a class="main__saneamiento__servicio__imagen d-flex justify-content-center d-block d-md-none" href="/html/Desinsectacion.html"
-            ><img class="main__saneamiento__servicio__imagen" " 
-              src="/imagen/DESINSECTIZACIÒN 320.png"
-              alt="Desinsectación"
-          /></a>
-          <h5 class="main__saneamiento__servicio__titulo d-flex justify-content-center ">FUMIGACION</h5>
-      </div>
-      
-      <div class="main__saneamiento__servicio d-flex flex-column justify-content-center">
-      
-          <a class="main__saneamiento__servicio__imagen d-flex justify-content-center d-none d-md-block" href="/html/Desratizacion.html"
-          ><img class="main__saneamiento__servicio__imagen"  width="202px" height="auto"
-            src="/imagen/DESRATIZACION---DT.png"
-            alt="Desratización"
-        /></a>
-        <a class="main__saneamiento__servicio__imagen d-flex justify-content-center d-block d-md-none" href="/html/Desratizacion.html"
-          ><img class="main__saneamiento__servicio__imagen"  width="202px" height="auto"
-            src="/imagen/DESRATIZACION---DT 320.png"
-            alt="Desratización"
-        /></a>
-        <h5 class="main__saneamiento__servicio__titulo d-flex justify-content-center">DESRATIZACION</h5>
-      </div>
-      
-      <div class="main__saneamiento__servicio d-flex flex-column justify-content-center">
-      
-      <a class="main__saneamiento__servicio__imagen d-flex justify-content-center d-none d-md-block" href="/html/LimpiezaAmbiente.html"
-        ><img class="main__saneamiento__servicio__imagen"  width="202px" height="auto"
-          src="/imagen/722-x-368.png"
-          alt="Limpieza de ambientes"
-      /></a>
-      <a class="main__saneamiento__servicio__imagen d-flex justify-content-center d-block d-md-none" href="/html/LimpiezaAmbiente.html"
-        ><img class="main__saneamiento__servicio__imagen"  "
-          src="/imagen/limpieza 320.png"
-          alt="Limpieza de ambientes"
-      /></a>
-      <h5 class="main__saneamiento__servicio__titulo d-flex justify-content-center"> LIMPIEZA DE AMBIENTES</h5>
-      </div>
-        
-      <div class="main__saneamiento__servicio d-flex flex-column justify-content-center">
-      
-      <a  class="main__saneamiento__servicio__imagen d-flex justify-content-center d-none d-md-block" href="/html/reservorio.html"
-              ><img class="main__saneamiento__servicio__imagen"  width="202px" height="auto"
-                src="/imagen/RESERVORIO---DT.png"
-                alt="Limpieza de
-              Reservorio"
-            /></a>
-            <a  class="main__saneamiento__servicio__imagen d-flex justify-content-center d-block d-md-none" href="/html/reservorio.html"
-              ><img class="main__saneamiento__servicio__imagen"  "
-                src="/imagen/RESERVORIO---DT 320.png"
-                alt="Limpieza de
-              Reservorio"
-            /></a>
-            <h5 class="main__saneamiento__servicio__titulo d-flex justify-content-center">RESERVORIOS</h5>
-      </div>
+<section class="main__saneamiento__lista d-flex flex-row justify-content-around ms-5 me-5  gap-3">
+<div class="d-flex flex-column d-none d-xl-block">
+    <a class="main__saneamiento__lista__item" href="/html/Desinfeccion.html">   <img src="/imagen/FUMIGACIÓN---DT.png" alt="" width="202px" height="auto"> </a>
+    <h5 class="main__saneamiento__lista__subtitulo d-flex justify-content-center">Fumigación</h5>
 </div>
-
-<!-- QUIENES SOMOS -->
-
-<div class="main__somos ms-5 me-5">
-    <div class="main__somos__texto p-5  text-light ">
-    <h2>QUIENES SOMOS?</h2>
-    <H5>Somos una empresa que protege a las personas, controlando los riesgos, trabajando en los ambientes</H5>
-    <h5>y operaciones para mejorar la salud de nuestros clientes, optimizando la rentabilidad</h5>
-    <h5>de las empresas evitando perdidas e infracciones</h5>
-    </div>
+<div class="d-flex flex-column d-none d-xl-block">
+    <a class="main__saneamiento__lista__item" href="/html/Desinsectacion.html"> <img src="/imagen/DESINSECTIZACIÒN.png" alt="" width="202px" height="auto"> </a>
+    <h5 class="main__saneamiento__lista__subtitulo d-flex justify-content-center">Desinsectación</h5>
 </div>
-
-<!-- ASESORIAS -->
-
-<div class="main__consultoria ms-5 me-5 d-flex flex-column mt-5 justify-content-between">
-  <h2 class="main__consultoria__titulo mb-4">CONSULTORIA</h2>
-  <div class="main__consultoria__espacios d-flex flex-column flex-md-row flex-xl-row justify-content-between gap-4">
-    <img src="../imagen/SERV.-CONSULTORIA---DT.png" alt="consultoria">
-
-    <div class="main__consultoria__servicios d-flex flex-column  gap-1 ">
-    
-      <div class="main_consultoria_servicios_texto bg-secondary text-white p-4  ">
-       <h3>Certificados municipales ITSE </h3>
-       <h6>Obten tu licencia de funcionamiento municipal o renuevalo cada dos años. Te ayudamos con la inspeccion VISE o ECSE municipal para todo tipo de empresas o industria. 
-       </h6>
-       <a class=" text-white" href="/html/itse.html">Seguir leyendo...</a>
-    </div>
-
-    <div class="main_consultoria_servicios_texto bg-secondary text-white p-4  ">  
-      <h3>Salud e higiene ocupacional</h3>
-      <h6>Planificamos tu negocio para buenas practicas en seguridad e higiene ocupacional para cualquier empresa evitando incidente y cumliendo con la norma peruana. </h6>
-      <a class=" text-white" href="/html/sst.html">Seguir leyendo...</a>
-    </div>
-
-    <div class="main__consultoria__servicios bg-secondary text-white p-4  ">
-      <h3>Capacitaciones al personal</h3>
-      <h6>Cumple con las 4 capacitaciones anuales a los trabajadores que exige de la ley 29783..</h6>
-      <a class=" text-white" href="/html/capacitaciones.html">Seguir leyendo...</a>
-    </div>
-    
-    </div>
-  </div>
+<div class="d-flex flex-column d-none d-xl-block">
+    <a class="main__saneamiento__lista__item" href="/html/Desratizacion.html">   <img src="/imagen/DESRATIZACION---DT.png" alt="" width="202px" height="auto"></a>
+    <h5 class="main__saneamiento__lista__subtitulo d-flex justify-content-center">Desratización</h5>
 </div>
-
-<div class="main__extintores mt-3 ms-5 me-5 p-5  text-light">
-
-  <h2 class="main__extintores__titulo text-withe">EXTINTORES</h2>
-  <h5 class="main__extintores__parrafo text-white">Contamos con profesionales que te asesoran en la correcta ubicación, </h5> 
-  <h5 class="main__extintores__parrafo text-white">señalización y cantidad de extintores en tu empresa, asi como capacitaciones para su uso y venta</h5>
+<div class="d-flex flex-column d-none d-xl-block">
+    <a class="main__saneamiento__lista__item" href="/html/LimpiezaAmbiente.html">  <img src="/imagen/722-x-368.png" alt="" width="202px" height="auto"> </a>
+    <h5 class="main__saneamiento__lista__subtitulo d-flex justify-content-center">Limpieza de Ambientes</h5>
+</div>
+<div class="d-flex flex-column d-none d-xl-block">
+    <a class="main__saneamiento__lista__item" href="/html/reservorio.html"><img src="/imagen/RESERVORIO---DT.png" alt="" width="202px" height="auto"> </a>
+    <h5 class="main__saneamiento__lista__subtitulo d-flex justify-content-center">Limpieza de reservorios</h5>
 </div>
 
 </section>
 
 
+<!-- QUIENES SOMOS -->
+<section class="main__somos mt-4 ms-5 me-5">
+    <div class="main__somos__texto p-2 fs-xl-3 p-lg-3 text-light ">
+    <h2>QUIENES SOMOS?</h2>
+    <p class="d-block d-lg-none"> Somos una empresa que protege a las personas, controlando los riesgos, trabajando en los ambientes y operaciones para mejorar la salud de nuestros clientes, optimizando la rentabilidad de las empresas evitando perdidas e infracciones</p>
+    <p class="fs-3 d-none d-lg-block"> Somos una empresa que protege a las personas, controlando los riesgos, trabajando en los ambientes y operaciones para mejorar la salud de nuestros clientes, optimizando la rentabilidad de las empresas evitando perdidas e infracciones</p>
+    </div>
+  </section>
+
+<!-- ASESORIAS -->
+<section class="main__consultoria ms-5 me-5 d-flex flex-column mt-3 justify-content-between">
+  <h2 class="main__consultoria__titulo mb-4 d-flex justify-content-center">CONSULTORIA</h2>
+  <div class="main__consultoria__espacios d-flex flex-column flex-md-row flex-xl-row justify-content-around gap-4 ">
+    <img class="d-md-none d-lg-block" src="../imagen/SERV.-CONSULTORIA---DT.png" alt="consultoria">
+
+    <div class="main__consultoria__servicios d-flex flex-column  gap-1 ">
+        <div class="main_consultoria_servicios_texto bg-secondary text-white p-4  ">
+        <h3>Certificados municipales ITSE </h3>
+        <h6>Obten tu licencia de funcionamiento municipal o renuevalo cada dos años. Te ayudamos con la inspeccion VISE o ECSE municipal para todo tipo de empresas o industria. </h6>
+        <a class=" text-white" href="/html/itse.html">Seguir leyendo...</a>
+    </div>
+    <div class="main_consultoria_servicios_texto bg-secondary text-white p-4  ">  
+        <h3>Salud e higiene ocupacional</h3>
+        <h6>Planificamos tu negocio para buenas practicas en seguridad e higiene ocupacional para cualquier empresa evitando incidente y cumliendo con la norma peruana. </h6>
+        <a class=" text-white" href="/html/sst.html">Seguir leyendo...</a>
+    </div>
+    <div class="main__consultoria__servicios bg-secondary text-white p-4  ">
+      <h3>Capacitaciones al personal</h3>
+      <h6>Cumple con las 4 capacitaciones anuales a los trabajadores que exige de la ley 29783..</h6>
+      <a class=" text-white" href="/html/capacitaciones.html">Seguir leyendo...</a>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- extintores -->
+<h2 class="main__extintores__titulo text-withe d-flex justify-content-center mt-3 ">EXTINTORES</h2>
+<div class="main__extintores  ms-5 me-5 p-2 text-light p-lg-3">
+<a class="text-decoration-none" href="/html/extintores.html">
+  <p class="main__extintores__parrafo text-white  d-block d-lg-none">Contamos con profesionales que te asesoran en la correcta ubicación, señalización y cantidad de extintores en tu empresa, asi como capacitaciones para su uso y venta</p>
+  <p class="main__extintores__parrafo text-white fs-3 d-none d-lg-block">Contamos con profesionales que te asesoran en la correcta ubicación, señalización y cantidad de extintores en tu empresa, asi como capacitaciones para su uso y venta</p>
+</a>
+</div>
+</section>
+
+
 <!-- footer -->
-<section class="footer ms-5 me-5 d-flex flex-column bg-secondary text-light p-4 mt-5 mb-3">
+<section class="footer ms-5 me-5 d-flex flex-column bg-secondary text-light p-4 mt-3 mb-3">
 
   <div class="footer__data  d-flex flex-column flex-md-row flex-xl-row  justify-content-around gx-0">
     <div class="footer__data__datos D-FLEX flex-column">
       <div class="footer__data__datos__titulo text-dark fw-bold">  DATOS:</div>  
-      <div class="footer__data__datos__direccion">Dirección: Manuel A. Segura 222 Los Olivos Lima</div>
+      <div class="footer__data__datos__direccion fs-7">Dirección: Manuel A. Segura 222 Los Olivos Lima</div>
       <br>
-      <div class="footer__data__datos__telefono"> Teléfono: <a class="text-decoration-none text-white" href="tel:+51921877425">921 877 425</a></div>
+      <div class="footer__data__datos__telefono"> Teléfono: <a class="text-decoration-none text-white" href="tel:+51921877425" target=»_blank>921 877 425</a></div>
       <br>
-      <div class="footer__data__datos__correo">email: <a class="text-decoration-none text-white" href="mailto:desinfecciontotaloficial@gmail.com">desinfecciontotaloficial@gmail.com</a></div>
+      <div class="footer__data__datos__correo">email: <a class="text-decoration-none text-white" href="mailto:desinfecciontotaloficial@gmail.com" target=»_blank>desinfeccion@gmail.com</a></div>
       <br>
       <div class="footer__data__datos__redes d-flex flex-row gap-3"> 
-          <div class="footer__data__datos__redes__facebook"> <a href="https://www.facebook.com/DESINFECCIONTOTALEIRL"><img src="/imagen/20673.png" alt=""></a></div>
-          <div class="footer__data__datos__redes__linkedin"><a href="https://www.linkedin.com/company/desinfecci%C3%B3n-total"> <img src="/imagen/linkedin.png" alt=""> </a></div>  
-          <div class="footer__data__datos__redes__whatsapp"> <a href="https://api.whatsapp.com/send?phone=51921877425&#038;text=Hola%20Desinfecci%C3%B3n%20Total,%20me%20gustar%C3%ADa%20mas%20informaci%C3%B3n%20sobre%20sus%20servicios"><img src="/imagen/whatsapp.png" alt=""></a> </div>
+          <div class="footer__data__datos__redes__facebook"> <a href="https://www.facebook.com/DESINFECCIONTOTALEIRL" target=»_blank  ><img src="/imagen/20673.png" alt=""></a></div>
+          <div class="footer__data__datos__redes__linkedin"><a href="https://www.linkedin.com/company/desinfecci%C3%B3n-total" target=»_blank> <img src="/imagen/linkedin.png" alt=""> </a></div>  
+          <div class="footer__data__datos__redes__whatsapp"> <a href="https://api.whatsapp.com/send?phone=51921877425&#038;text=Hola%20Desinfecci%C3%B3n%20Total,%20me%20gustar%C3%ADa%20mas%20informaci%C3%B3n%20sobre%20sus%20servicios" target=»_blank><img src="/imagen/whatsapp.png" alt=""></a> </div>
         </div>
     </div>
-  
+  <br>
     <nav class="footer__data__saneamiento d-flex flex-column">
       <il class="footer__data__saneamiento__Titulo text-dark fw-bold">MAPA</il>
       <il class="footer__data__saneamiento__item"><a class="footer__data__saneamiento__inicio text-decoration-none text-white" href="/index.html">INICIO</a></il>
@@ -310,7 +257,7 @@
       <il class="footer__data__consultoria__item"><a class="footer__data__consultoria__item__contacto text-decoration-none text-white" href="HTML/contacto.html">CONTACTO</a></il>
     
     </nav>
-  
+  <br>
     <div class="footer__data__horario d-flex flex-column">
         <div class="footer__data__horario__titulo text-dark fw-bold">HORARIO:</div>
             <div class="footer__data__horario__dia">LUN: 9 a 17 hrs.</div>
@@ -320,7 +267,7 @@
             <div class="footer__data__horario__dia">VIE: 9 a 17 hrs.</div>
             <div class="footer__data__horario__dia">SAB: 9 a 17 hrs.</div>
       </div>
-      
+      <br>
       <div class="footer__data__blog">
           <div class="footer__data__blog__titulo text-dark fw-bold">BLOG</div>
           <div class="footer__data__blog__articulo">Amonios Cueternarios, uso, tipos...</div>
@@ -333,26 +280,12 @@
           <div class="class__data__blog__fecha">Marzo 8 ,2021</div>
       </div>
   </div>
-  
-    <div class="footer__pie d-flex flex-row justify-content-end aling-contend-end">
-          <small class="footer__pie__copy">Perú 2021 - Diseñado por omar</small>
+      <div class="footer__pie d-flex flex-row justify-content-end aling-contend-end">
+      <small class="footer__pie__copy">Perú 2021 - Diseñado por omar</small>
     </div>
+    </section>
   
-  
-  
-  </section>
-  
-  
-  
-  
-  
-  
-  
-
-
-
-
-  <!-- java -->
+    <!-- java -->
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
